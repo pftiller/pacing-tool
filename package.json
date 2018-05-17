@@ -1,0 +1,29 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pftiller/pacing-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pftiller/pacing-tool/issues"
+  },
+  "homepage": "https://github.com/pftiller/pacing-tool#readme",
+  "dependencies": {
+    "angular": "^1.7.0",
+    "angular-route": "^1.7.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-adwords": "^201802.2.0",
+    "pg": "^7.4.3"
+  }
+}
